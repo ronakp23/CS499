@@ -1,1 +1,1 @@
-web: python proj_root.backend manage.py migrate && python proj_root.backend manage.py collectstatic && gunicorn proj_root.backend.backend:application
+web: cd .\proj_root\backend && python manage.py migrate && python manage.py collectstatic && gunicorn backend.wsgi
