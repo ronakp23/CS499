@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mydatabase',
+        'NAME': 'railway',
         'USER': 'postgres',
         'PASSWORD': '2Y5sAF8OgzzcnEhF98R7',
         'HOST': 'containers-us-west-56.railway.app',
